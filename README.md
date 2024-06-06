@@ -32,44 +32,8 @@ The main objectives of this portfolio are:
 ## 4. Design
 
 The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C++ code examples. The following functionalities and algorithms are covered:
-<details id="doctor-search">
-<summary><b>1.Doctor Search - Longest Common Subsequence (LCS)</b></summary>
 
-**Functionality**: The LCS algorithm is used to match the user input with doctor names. It helps in providing autocomplete suggestions or fuzzy search results.
-
-**Explanation**: LCS finds the longest subsequence present in both strings, making it suitable for matching partial or misspelled inputs. For example, if the user searches for "Smth", it will still match "Smith".
-
-**C++ Code**:
-// C++ code for Longest Common Subsequence (LCS) algorithm
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
-
-int lcs(string s1, string s2) {
-    int m = s1.length(), n = s2.length();
-    vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
-
-    for (int i = 1; i <= m; ++i) {
-        for (int j = 1; j <= n; ++j) {
-            if (s1[i - 1] == s2[j - 1]) {
-                dp[i][j] = dp[i - 1][j - 1] + 1;
-            } else {
-                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
-            }
-        }
-    }
-
-    return dp[m][n];
-}
-
-int main() {
-    string s1 = "Doctor Smith", s2 = "Dr. Smit";
-    cout << "Length of Longest Common Subsequence: " << lcs(s1, s2) << endl;
-    return 0;
-}
-</details>
+1. **Doctor Search** - Longest Common Subsequence (LCS)
 2. **Appointment Booking** - Shortest Common Supersequence (SCS)
 3. **Patient Records Management** - Trie
 4. **Online Consultation** - Edit Distance Problem
