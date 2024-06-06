@@ -32,7 +32,6 @@ The main objectives of this portfolio are:
 ## 4. Design
 
 The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C++ code examples. The following functionalities and algorithms are covered:
-
 <details id="doctor-search">
 <summary><b>1.Doctor Search - Longest Common Subsequence (LCS)</b></summary>
 
@@ -41,7 +40,6 @@ The design of this portfolio involves selecting specific functionalities within 
 **Explanation**: LCS finds the longest subsequence present in both strings, making it suitable for matching partial or misspelled inputs. For example, if the user searches for "Smth", it will still match "Smith".
 
 **C++ Code**:
-```cpp
 // C++ code for Longest Common Subsequence (LCS) algorithm
 #include <iostream>
 #include <vector>
@@ -71,7 +69,6 @@ int main() {
     cout << "Length of Longest Common Subsequence: " << lcs(s1, s2) << endl;
     return 0;
 }
-```
 </details>
 2. **Appointment Booking** - Shortest Common Supersequence (SCS)
 3. **Patient Records Management** - Trie
