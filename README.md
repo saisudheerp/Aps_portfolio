@@ -33,7 +33,7 @@ The main objectives of this portfolio are:
 
 The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C++ code examples. The following functionalities and algorithms are covered:
 
-1. **Doctor Search** - [Longest Common Subsequence (LCS)]
+1. **Doctor Search** - [Longest Common Subsequence (LCS)](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/LCS.cpp)
 2. **Appointment Booking** - Shortest Common Supersequence (SCS)
 3. **Patient Records Management** - Trie
 4. **Online Consultation** - Edit Distance Problem
