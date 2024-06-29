@@ -1,52 +1,58 @@
-#include <iostream>
-#include <unordered_map>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 struct TrieNode {
-    unordered_map<char, TrieNode*> children;
-    bool isEndOfWord;
+    TrieNode* childNode[26];
+    bool wordEnd;
+
+    TrieNode() {
+        wordEnd = false;
+        for (int i = 0; i < 26; i++) {
+            childNode[i] = NULL;
+        }
+    }
 };
 
-class Trie {
-public:
-    TrieNode* root;
-
-    Trie() {
-        root = new TrieNode();
-        root->isEndOfWord = false;
-    }
-
-    void insert(string key) {
-        TrieNode* node = root;
-        for (char c : key) {
-            if (!node->children[c]) {
-                node->children[c] = new TrieNode();
-            }
-            node = node->children[c];
+void insert_key(TrieNode* root, string& key) {
+    TrieNode* currentNode = root;
+    for (auto c : key) {
+        if (currentNode->childNode[c - 'a'] == NULL) {
+            TrieNode* newNode = new TrieNode();
+            currentNode->childNode[c - 'a'] = newNode;
         }
-        node->isEndOfWord = true;
+        currentNode = currentNode->childNode[c - 'a'];
     }
+    currentNode->wordEnd = true;
+}
 
-    bool search(string key) {
-        TrieNode* node = root;
-        for (char c : key) {
-            if (!node->children[c]) {
-                return false;
-            }
-            node = node->children[c];
+bool search_key(TrieNode* root, string& key) {
+    TrieNode* currentNode = root;
+    for (auto c : key) {
+        if (currentNode->childNode[c - 'a'] == NULL) {
+            return false;
         }
-        return node != nullptr && node->isEndOfWord;
+        currentNode = currentNode->childNode[c - 'a'];
     }
-};
+    return currentNode->wordEnd == true;
+}
 
 int main() {
-    Trie trie;
-    trie.insert("Alice");
-    trie.insert("Bob");
+    TrieNode* root = new TrieNode();
+    vector<string> inputStrings = { "and", "ant", "do", "geek", "dad", "ball" };
+    int n = inputStrings.size();
+    for (int i = 0; i < n; i++) {
+        insert_key(root, inputStrings[i]);
+    }
 
-    cout << "Searching for Alice: " << (trie.search("Alice") ? "Found" : "Not Found") << endl;
-    cout << "Searching for Charlie: " << (trie.search("Charlie") ? "Found" : "Not Found") << endl;
-
+    vector<string> searchQueryStrings = { "do", "geek", "bat" };
+    int searchQueries = searchQueryStrings.size();
+    for (int i = 0; i < searchQueries; i++) {
+        cout << "Query String: " << searchQueryStrings[i] << "\n";
+        if (search_key(root, searchQueryStrings[i])) {
+            cout << "The query string is present in the Trie\n";
+        } else {
+            cout << "The query string is not present in the Trie\n";
+        }
+    }
     return 0;
 }
