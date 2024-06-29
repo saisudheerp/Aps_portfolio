@@ -33,16 +33,53 @@ The main objectives of this portfolio are:
 
 The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C++ code examples. The following functionalities and algorithms are covered:
 
-1. **Doctor Search** - Longest Common Subsequence (LCS)
-2. **Appointment Booking** - Shortest Common Supersequence (SCS)
-3. **Patient Records Management** - Trie
-4. **Online Consultation** - Edit Distance Problem
-5. **Prescription Management** - Coin Change Problem
-6. **Health Analytics** - Kadane's Algorithm
-7. **Symptom Checker** - Trie Data Structure
-8. **Payment Gateway Integration** - Heap Implementation
-9. **Feedback and Ratings** - Pascal's Triangle
-10. **Doctor Availability** - Interval Scheduling
+### 1. Doctor Search by Specialty
+For searching doctors based on their specialty in a large dataset, a linear search is inefficient. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Here is my code for the Trie data structure.
+
+### 2. Appointment Scheduling
+Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Here is my code for Min-Heap implementation in appointment scheduling.
+
+### 3. Patient Record Management
+For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Here is my code for BST implementation.
+
+### 4. Prescription Management
+For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for Hash Table implementation.
+
+### 5. Emergency Response System
+For providing quick access to emergency services based on location, simple routing methods are inefficient. The best approach would be using Dijkstra's Algorithm, which finds the shortest path in weighted graphs. Here is my code for Dijkstra's Algorithm.
+
+### 6. Medicine Availability
+For checking the availability of medicines in various pharmacies, a sequential search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Here is my code for BFS.
+
+### 7. Patient Queue Management
+For managing patient queues in clinics, a first-come-first-served approach may be inefficient. The best approach would be using a Priority Queue to handle patients based on urgency. Here is my code for Priority Queue.
+
+### 8. Symptom Tracking Over Time
+For tracking changes in symptoms over time, basic methods may not capture trends accurately. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Here is my code for the Sliding Window Algorithm.
+
+### 9. Insurance Claim Processing
+Efficiently process insurance claims while minimizing processing time and maximizing accuracy. Traditional methods may struggle with the complexity and volume of claim data. The best approach would be using a Graph-based approach, such as Dijkstra's Algorithm, to optimize the routing and processing of claims through the insurance network. Here is my code for Dijkstra's Algorithm implementation.
+
+### 10. Healthcare Resource Allocation
+Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Here is my code for the Ford-Fulkerson algorithm implementation.
+
+### 11. Electronic Health Record (EHR) Retrieval
+Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Here is my code for B+ Tree implementation.
+
+### 12. Medical Inventory Management
+Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. Here is my code for Min-Heap implementation in inventory management.
+
+### 13. Personalized Treatment Recommendation
+Recommend personalized treatment plans for patients based on medical history and current conditions. Traditional methods may provide generic recommendations. The best approach would be using a Decision Support System, such as the A* Search Algorithm, which evaluates treatment options based on patient-specific factors like medical history, allergies, and genetic predispositions. Here is my code for A* Search Algorithm implementation.
+
+### 14. Healthcare Facility Routing Optimization
+Optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. Basic routing methods may not consider real-time constraints and patient urgency. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. Here is my code for Dijkstra's Algorithm implementation in facility routing.
+
+### 15. Patient Discharge Planning
+Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Basic discharge planning methods may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Here is my code for BFS implementation in discharge planning.
+
+### 16.Healthcare Supply Chain Optimization
+Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Here is my code for Ford-Fulkerson algorithm implementation in supply chain optimization.
 
 ## 5. Challenges
 
