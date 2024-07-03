@@ -6,7 +6,7 @@
 <dt>Course Code</dt>
 <dd>23ECSE309</dd>
 <dt>Name</dt>
-<dd>P SAI SUDHEERr</dd>
+<dd>P SAI SUDHEER</dd>
 <dt>USN</dt>
 <dd>01FE21BCS096</dd>
 <dt>Course Instructor</dt>
