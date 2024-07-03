@@ -1,14 +1,14 @@
-# Health-Care Portfolio
+# Health-Care Management App Portfolio
 
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
 <dt>Course Code</dt>
-<dd>23ECSE309</dd>
+<dd>23ecse309</dd>
 <dt>Name</dt>
-<dd>P Sai Sudheer</dd>
+<dd>P SAI SUDHEERr</dd>
 <dt>USN</dt>
-<dd>01FE21BCS096</dd>
+<dd>01fe21bcs096</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
@@ -36,8 +36,6 @@ The main objectives of this portfolio are:
 - **Illustrate Practical Applications**: Highlight the application of data structures and algorithms in real-world scenarios.
 - **Enhance Healthcare Management**: Contribute to better healthcare management through optimized app functionalities.
 - **Promote Scalability and Accuracy**: Ensure the solutions are scalable to handle large datasets and maintain high accuracy.
-
-By achieving these objectives, this portfolio aims to contribute to the development of more effective and user-friendly healthcare applications, ultimately enhancing the overall quality of healthcare services.
 
 ## 4. Design
 
@@ -81,7 +79,7 @@ Efficiently process insurance claims while minimizing processing time and maximi
 
 ### 10. Healthcare Resource Allocation
 
-Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(|V| * E^2) and space complexity is O(|V|). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
+Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
 
 ### 11. Electronic Health Record (EHR) Retrieval
 
@@ -105,7 +103,7 @@ Optimize the discharge planning process for patients to ensure timely and smooth
 
 ### 16. Healthcare Supply Chain Optimization
 
-Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(|V| * E^2) and space complexity is O(|V|). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
+Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
 
 ## 5. Challenges
 
@@ -126,6 +124,4 @@ To further enhance this portfolio, the following tasks are planned:
 - **Extend Use Cases**: Expand the use cases to include more aspects of healthcare management, such as telemedicine, remote monitoring, and patient engagement.
 - **Analyze Complexity**: Provide a comprehensive analysis of the time and space complexity for each algorithm to better understand their performance characteristics.
 - **Develop User Interface**: Create a user-friendly interface to demonstrate these functionalities in a live healthcare app prototype, making it easier for users to interact with the app and benefit from its features.
-- **Incorporate Machine Learning**: Explore the integration of machine learning techniques to enhance predictive capabilities and personalized healthcare recommendations.
-
 
