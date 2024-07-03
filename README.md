@@ -9,6 +9,8 @@
 <dd>P SAI SUDHEERr</dd>
 <dt>USN</dt>
 <dd>01FE21BCS096</dd>
+<dt>Course Instructor</dt>
+<dd>Prakash Hegade</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
@@ -41,7 +43,7 @@ The main objectives of this portfolio are:
 
 The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C and C++ code examples. I have written some codes and some of them i have gathered from various internet resources The following functionalities and algorithms are covered:
 
-#### 1. Doctor Search by Specialty
+### 1. Doctor Search by Specialty
 
 For searching doctors based on their specialty in a large dataset, a linear search is inefficient. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity is O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp).
 
