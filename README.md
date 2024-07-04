@@ -19,9 +19,9 @@
 
 ## 1. Introduction
 
-In today's fast-paced world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. My idea is to create a health app that provides functionalities to improve our quality of life. This app will be useful for both doctors and patients.
+In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. i have  did research about practo and find out the functionalities practo is implementing. My idea is to make a health app that provides functionalities of practo and add some additional features that may improve the app. This app will be useful for both doctors and patients.
 
-The significance of healthcare apps has grown exponentially with the rise of digital health technologies. These apps not only facilitate easier access to healthcare services but also contribute to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining comprehensive health records. By leveraging algorithmic problem-solving techniques, we can further enhance the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
+This app not only facilitate easier access to healthcare services but also contribute to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining comprehensive health records. By using algorithmic problem-solving techniques, we can further enhance the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
 
 ## 2. Why Portfolio
 
