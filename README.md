@@ -65,7 +65,7 @@ For providing quick access to emergency services based on location, simple routi
 
 ### 6. Medicine Availability
 
-For checking the availability of medicines in various pharmacies, a linear search is impractical because some patients should be treated based on emergencies. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ### 7. Patient Queue Management
 
@@ -144,5 +144,17 @@ To further enhance this portfolio, the following tasks are planned:
 
 [7] GeeksforGeeks, "Ford-Fulkerson Algorithm for Maximum Flow Problem," [https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/).
 
+[8] [https://code.daypilot.org/44666/html5-doctor-appointment-scheduling-javascript-php](https://code.daypilot.org/44666/html5-doctor-appointment-scheduling-javascript-php)
 
-](https://www.geeksforgeeks.org/heap-sort/)
+[9] [https://www.vyvgart.com/gmg/getting-started/symptom-tracking](https://www.vyvgart.com/gmg/getting-started/symptom-tracking)
+
+[10] [https://en.wikipedia.org/wiki/Electronic_health_record](https://en.wikipedia.org/wiki/Electronic_health_record)
+
+[11] [https://dribbble.com/shots/15867006-Medicotary-medical-inventory-management-system-dashboard](https://dribbble.com/shots/15867006-Medicotary-medical-inventory-management-system-dashboard)
+
+[12] Mittal A and Mantri A. A literature survey on healthcare supply chain management [version 2; peer review: 1 approved with reservations]. F1000Research 2023, 12:759 (https://doi.org/10.12688/f1000research.131440.2)
+
+[13] [practo.com](https://www.practo.com/)
+
+[14] [medplus.com](https://www.medplusmart.com/)
+
