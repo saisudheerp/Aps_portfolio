@@ -47,6 +47,8 @@ The design of this portfolio involves selecting specific functionalities within 
 
 For searching doctors based on their specialty in a large dataset, a linear search is inefficientans it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
 
+![Doctor Search by Specialty[13]](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/patient_by_specialiity.png)
+
 ### 2. Appointment Scheduling
 
 Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
