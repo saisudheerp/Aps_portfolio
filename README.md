@@ -127,3 +127,20 @@ To further enhance this portfolio, the following tasks are planned:
 - **Analyze Complexity**: Provide a comprehensive analysis of the time and space complexity for each algorithm to better understand their performance characteristics.
 - **Develop User Interface**: Create a user-friendly interface to demonstrate these functionalities in a live healthcare app prototype, making it easier for users to interact with the app and benefit from its features.
 
+
+##7. References
+
+[1] GeeksforGeeks, "Trie | (Insert and Search)," [Online]. Available: https://www.geeksforgeeks.org/trie-insert-and-search/.
+
+[3] GeeksforGeeks, "Heap Sort for sorting elements of an array," [Online]. Available: https://www.geeksforgeeks.org/heap-sort/.
+
+[4] GeeksforGeeks, "Hashing | Set 1 (Introduction)," [Online]. Available: https://www.geeksforgeeks.org/hashing-set-1-introduction/.
+
+[5] GeeksforGeeks, "Sliding Window Maximum (Maximum of all subarrays of size k)," [Online]. Available: https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/.
+
+[6] GeeksforGeeks, "A* Search Algorithm," [Online]. Available: https://www.geeksforgeeks.org/a-search-algorithm/.
+
+[7] GeeksforGeeks, "B+ Tree | Introduction and Insertion," [Online]. Available: https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/.
+
+[8] GeeksforGeeks, "Ford-Fulkerson Algorithm for Maximum Flow Problem," [Online]. Available: https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/.
+
