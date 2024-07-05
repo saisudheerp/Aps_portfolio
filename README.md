@@ -45,11 +45,11 @@ The design of this portfolio involves selecting specific functionalities within 
 
 ### 1. Doctor Search by Specialty
 
-For searching doctors based on their specialty in a large dataset, a linear search is inefficientans it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp).
+For searching doctors based on their specialty in a large dataset, a linear search is inefficientans it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
 
 ### 2. Appointment Scheduling
 
-Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp).
+Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
 
 ### 3. Patient Record Management
 
@@ -57,7 +57,7 @@ For managing and retrieving patient records efficiently, a linear search would b
 
 ### 4. Prescription Management
 
-For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp).
+For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
 ### 5. Emergency Response System
 
@@ -73,7 +73,7 @@ For managing patient queues in clinics, a first-come-first-served approach may b
 
 ### 8. Symptom Tracking Over Time
 
-This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp).
+This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp)[4].
 
 ### 9. Insurance Claim Processing
 
@@ -81,19 +81,19 @@ Efficiently process insurance claims while minimizing processing time and maximi
 
 ### 10. Healthcare Resource Allocation
 
-Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
+Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[5].
 
 ### 11. Electronic Health Record (EHR) Retrieval
 
-Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Time Complexity and Space complexity are O(logn). Here is my code for [B+ Tree implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bplus.cpp).
+Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Time Complexity and Space complexity are O(logn). Here is my code for [B+ Tree implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bplus.cpp)[6].
 
 ### 12. Medical Inventory Management
 
-Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods like first-in, first-out (FIFO) may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. The time complexity is O(n*logn) and the space complexity is O(n). Here is my code for Min-Heap implementation. [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp).
+Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods like first-in, first-out (FIFO) may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. The time complexity is O(n*logn) and the space complexity is O(n). Here is my code for Min-Heap implementation. [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
 
 ### 13. Personalized Treatment Recommendation
 
-Recommend personalized treatment plans for patients based on medical history and current conditions. Traditional methods may provide generic recommendations. The best approach would be using a Decision Support System, such as the A* Search Algorithm, which evaluates treatment options based on patient-specific factors like medical history, allergies, and genetic predispositions. Time Complexity is O(E*logn) and space complexity is O(n). Here is my code for [A* Search Algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/Astar.cpp).
+Recommend personalized treatment plans for patients based on medical history and current conditions. Traditional methods may provide generic recommendations. The best approach would be using a Decision Support System, such as the A* Search Algorithm, which evaluates treatment options based on patient-specific factors like medical history, allergies, and genetic predispositions. Time Complexity is O(E*logn) and space complexity is O(n). Here is my code for [A* Search Algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/Astar.cpp)[7].
 
 ### 14. Healthcare Facility Routing Optimization
 
@@ -105,7 +105,7 @@ Optimize the discharge planning process for patients to ensure timely and smooth
 
 ### 16. Healthcare Supply Chain Optimization
 
-Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp).
+Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[7].
 
 ## 5. Challenges
 
@@ -130,19 +130,18 @@ To further enhance this portfolio, the following tasks are planned:
 
 ## 7. References
 
-[1] GeeksforGeeks, "Trie (Insert and Search)," Available: https://www.geeksforgeeks.org/trie-insert-and-search/.
+[1] GeeksforGeeks, "Trie (Insert and Search)," [https://www.geeksforgeeks.org/trie-insert-and-search/](https://www.geeksforgeeks.org/trie-insert-and-search/).
 
-[2] GeeksforGeeks, "Introduction of min-heap data structure","[https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/](https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/)
+[2] GeeksforGeeks, "Introduction of min-heap data structure," [https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/](https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/).
 
-[3] GeeksforGeeks, "Heap Sort for sorting elements of an array, "Available: https://www.geeksforgeeks.org/heap-sort/.
+[3] GeeksforGeeks, "Hashing Set 1 (Introduction)," [https://www.geeksforgeeks.org/hashing-set-1-introduction/](https://www.geeksforgeeks.org/hashing-set-1-introduction/).
 
-[4] GeeksforGeeks, "Hashing Set 1 (Introduction), "Available: https://www.geeksforgeeks.org/hashing-set-1-introduction/.
+[4] GeeksforGeeks, "Sliding Window Maximum (Maximum of all subarrays of size k)," [https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/](https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/).
 
-[5] GeeksforGeeks, "Sliding Window Maximum (Maximum of all subarrays of size k), Available: https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/.
+[5] GeeksforGeeks, "A* Search Algorithm," [https://www.geeksforgeeks.org/a-search-algorithm/](https://www.geeksforgeeks.org/a-search-algorithm/).
 
-[6] GeeksforGeeks, "A* Search Algorithm," Available: https://www.geeksforgeeks.org/a-search-algorithm/.
+[6] GeeksforGeeks, "B+ Tree Introduction and Insertion," [https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/).
 
-[7] GeeksforGeeks, "B+ Tree  Introduction and Insertion,"Available: https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/.
+[7] GeeksforGeeks, "Ford-Fulkerson Algorithm for Maximum Flow Problem," [https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/).
 
-[8] GeeksforGeeks, "Ford-Fulkerson Algorithm for Maximum Flow Problem," Available: https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/.
 
