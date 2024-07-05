@@ -89,7 +89,7 @@ Efficiently retrieve patient Electronic Health Records (EHR) from a large databa
 
 ### 12. Medical Inventory Management
 
-Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp).
+Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods like first-in, first-out (FIFO) may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. The time complexity is O(n*logn) and the space complexity is O(n). Here is my code for Min-Heap implementation. [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp).
 
 ### 13. Personalized Treatment Recommendation
 
@@ -97,11 +97,11 @@ Recommend personalized treatment plans for patients based on medical history and
 
 ### 14. Healthcare Facility Routing Optimization
 
-Optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. Basic routing methods may not consider real-time constraints and patient urgency. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c) in facility routing.
+This usecase is to optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c) in facility routing.
 
 ### 15. Patient Discharge Planning
 
-Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Basic discharge planning methods may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity is O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
+Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Basic discharge planning methods like check list may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
 
 ### 16. Healthcare Supply Chain Optimization
 
