@@ -132,7 +132,7 @@ To further enhance this portfolio, the following tasks are planned:
 
 [1] GeeksforGeeks, "Trie (Insert and Search)," Available: https://www.geeksforgeeks.org/trie-insert-and-search/.
 
-[2] GeeksforGeeks, "Introduction of min-heap data structure","(https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/)
+[2] GeeksforGeeks, "Introduction of min-heap data structure","[https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/](https://www.geeksforgeeks.org/introduction-to-min-heap-data-structure/)
 
 [3] GeeksforGeeks, "Heap Sort for sorting elements of an array, "Available: https://www.geeksforgeeks.org/heap-sort/.
 
