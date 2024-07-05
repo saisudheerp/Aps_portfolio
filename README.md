@@ -19,9 +19,9 @@
 
 ## 1. Introduction
 
-In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. i have  did research about practo and find out the functionalities practo is implementing. My idea is to make a health app that provides functionalities of practo and add some additional features that may improve the app. This app will be useful for both doctors and patients.
+In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients.
 
-This app not only facilitate easier access to healthcare services but also contribute to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining comprehensive health records. By using algorithmic problem-solving techniques, we can further enhance the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
+This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining comprehensive health records. By using algorithmic problem-solving techniques, we can further enhance the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
 
 ## 2. Why Portfolio
 
@@ -41,11 +41,11 @@ The main objectives of this portfolio are:
 
 ## 4. Design
 
-The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C and C++ code examples. I have written some codes and some of them i have gathered from various internet resources The following functionalities and algorithms are covered:
+The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C and C++ code examples. I have written some codes and some of them I have gathered from various internet resources. The following functionalities and algorithms are covered:
 
 ### 1. Doctor Search by Specialty
 
-For searching doctors based on their specialty in a large dataset, a linear search is inefficient. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity is O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp).
+For searching doctors based on their specialty in a large dataset, a linear search is inefficientans it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp).
 
 ### 2. Appointment Scheduling
 
@@ -53,7 +53,7 @@ Efficiently manage appointment scheduling to optimize healthcare provider availa
 
 ### 3. Patient Record Management
 
-For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity is O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ### 4. Prescription Management
 
@@ -65,15 +65,15 @@ For providing quick access to emergency services based on location, simple routi
 
 ### 6. Medicine Availability
 
-For checking the availability of medicines in various pharmacies, a sequential search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity is O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+For checking the availability of medicines in various pharmacies, a linear search is impractical because some patients should be treated based on emergencies. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ### 7. Patient Queue Management
 
-For managing patient queues in clinics, a first-come-first-served approach may be inefficient. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
+For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
 
 ### 8. Symptom Tracking Over Time
 
-For tracking changes in symptoms over time, basic methods may not capture trends accurately. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp).
+This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp).
 
 ### 9. Insurance Claim Processing
 
@@ -85,7 +85,7 @@ Optimize the allocation of healthcare resources such as staff and equipment to m
 
 ### 11. Electronic Health Record (EHR) Retrieval
 
-Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Time Complexity and Space complexity is O(logn). Here is my code for [B+ Tree implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bplus.cpp).
+Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Time Complexity and Space complexity are O(logn). Here is my code for [B+ Tree implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bplus.cpp).
 
 ### 12. Medical Inventory Management
 
