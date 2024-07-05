@@ -46,12 +46,14 @@ The design of this portfolio involves selecting specific functionalities within 
 ### 1. Doctor Search by Specialty
 
 For searching doctors based on their specialty in a large dataset, a linear search is inefficientans it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
-<img src="https://github.com/saisudheerp/Aps_portfolio/blob/main/images/patient_by_specialiity.png">sdsds</img>
-![Doctor Search by Specialty](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/prescription%20management.png)
+
+![Doctor Search by Specialty](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/patient_by_specialiity.png)
 
 ### 2. Appointment Scheduling
 
 Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
+
+![Appointment Scheduling](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/appointment_scheduling.png)
 
 ### 3. Patient Record Management
 
@@ -60,6 +62,8 @@ For managing and retrieving patient records efficiently, a linear search would b
 ### 4. Prescription Management
 
 For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
+
+![Prescription Management](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/prescription%20management.png)
 
 ### 5. Emergency Response System
 
@@ -89,9 +93,13 @@ Optimize the allocation of healthcare resources such as staff and equipment to m
 
 Efficiently retrieve patient Electronic Health Records (EHR) from a large database. Basic search methods may be inefficient for large datasets. The best approach would be using an Indexing technique like B+ Tree, which allows for fast retrieval of records based on patient identifiers or timestamps. Time Complexity and Space complexity are O(logn). Here is my code for [B+ Tree implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bplus.cpp)[6].
 
+![Electronic Health Record (EHR) Retrieval](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/Electronic_medical_record.jpg)
+
 ### 12. Medical Inventory Management
 
 Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods like first-in, first-out (FIFO) may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. The time complexity is O(n*logn) and the space complexity is O(n). Here is my code for Min-Heap implementation. [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
+
+![Medical Inventory Management](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/inventory_management.png)
 
 ### 13. Personalized Treatment Recommendation
 
@@ -108,6 +116,8 @@ Optimize the discharge planning process for patients to ensure timely and smooth
 ### 16. Healthcare Supply Chain Optimization
 
 Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[7].
+
+![Healthcare Supply Chain Optimization](https://github.com/saisudheerp/Aps_portfolio/blob/main/images/Healthcare%20Supply%20Chain%20Optimization.png)
 
 ## 5. Challenges
 
