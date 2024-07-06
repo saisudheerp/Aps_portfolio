@@ -77,7 +77,7 @@ For providing quick access to emergency services based on location, simple routi
 
 For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 ![Prescription Management](images/prescription%20management.png)
-*This image represents the Medicine Availability[14]*
+*This image represents the Medicine Availability From Medplus[14]*
 
 ### 7. Patient Queue Management
 
@@ -89,6 +89,8 @@ For managing patient queues in clinics, a first-come-first-served approach may b
 
 This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp)[4].
 
+![Symptom Tracking Over Time](images/synptom%20tracking.png)
+*This image represents the Symptom Tracking Over Time[9]*
 ### 9. Insurance Claim Processing
 
 Efficiently process insurance claims while minimizing processing time and maximizing accuracy. Traditional methods may struggle with the complexity and volume of claim data. The best approach would be using a Graph-based approach, such as Dijkstra's Algorithm, to optimize the routing and processing of claims through the insurance network. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
@@ -103,11 +105,14 @@ Efficiently retrieve patient Electronic Health Records (EHR) from a large databa
 
 ![Electronic Health Record (EHR) Retrieval](images/Electronic_medical_record.jpg)
 
+*This image represents the Electronic Health Record (EHR) Retrieval[10]*
+
 ### 12. Medical Inventory Management
 
 Manage and optimize the inventory of medical supplies and medications in hospitals or pharmacies. Simple inventory management methods like first-in, first-out (FIFO) may lead to overstocking or stockouts. The best approach would be using a Min-Heap data structure to prioritize and manage inventory levels based on demand and expiration dates. The time complexity is O(n*logn) and the space complexity is O(n). Here is my code for Min-Heap implementation. [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
 
 ![Medical Inventory Management](images/inventory_management.png)
+*This image represents the Medical Inventory Management[11]*
 
 ### 13. Personalized Treatment Recommendation
 
@@ -126,6 +131,7 @@ Optimize the discharge planning process for patients to ensure timely and smooth
 Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[7].
 
 ![Healthcare Supply Chain Optimization](images/Healthcare%20Supply%20Chain%20Optimization.png)
+*This image represents the Healthcare Supply Chain Optimization[12]*
 
 ## 5. Challenges
 
