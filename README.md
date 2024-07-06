@@ -54,17 +54,20 @@ Efficiently manage appointment scheduling to optimize healthcare provider availa
 
 ![Appointment Scheduling](images/appointment_scheduling.png)
 
+*This image represents the Appointment Scheduling[8]*
 ### 3. Patient Record Management
 
 For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ![patient record management](images/patient%20record%20management.jpg)
+*This image represents the Patient Record Management[13]*
 
 ### 4. Prescription Management
 
 For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
 ![Prescription Management](images/prescription%20management%202.jpg)
+*This image represents the Prescription Management[15]*
 
 ### 5. Emergency Response System
 
@@ -74,12 +77,14 @@ For providing quick access to emergency services based on location, simple routi
 
 For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 ![Prescription Management](images/prescription%20management.png)
+*This image represents the Medicine Availability[14]*
 
 ### 7. Patient Queue Management
 
 For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
 
 ![Patient Queue management](images/queue%20management.png)
+*This image represents the Patient Queue Management[16]*
 ### 8. Symptom Tracking Over Time
 
 This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp)[4].
@@ -175,4 +180,4 @@ To further enhance this portfolio, the following tasks are planned:
 
 [15] [https://www.altexsoft.com/blog/pharmacy-management-system/](https://www.altexsoft.com/blog/pharmacy-management-system/)
 
-
+[16] [https://www.unotech.io/clinic-queue-management-system-qms](https://www.unotech.io/clinic-queue-management-system-qms)
