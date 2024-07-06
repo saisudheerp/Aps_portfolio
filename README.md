@@ -79,7 +79,7 @@ For checking the availability of medicines in various pharmacies, a linear searc
 
 ### 7. Patient Queue Management
 
-For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
+For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n) and Space complexity is O(1). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
 
 ![Patient Queue management](images/queue%20management.png)
 *This image represents the Patient Queue Management[16]*
