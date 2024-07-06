@@ -19,13 +19,11 @@
 
 ## 1. Introduction
 
-In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients.
-
-This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining health records. By using algorithmic problem-solving techniques, we can further improve  the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
+In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. Practo offers a range of services, including the ability to search for doctors and book appointments online, order medicines, consult with doctors online through video calls or chat, store and manage medical records, and read health-related articles and tips. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients.This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining health records. By using algorithmic problem-solving techniques, we can further improve  the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
 
 ## 2. Why Portfolio
 
-This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, and symptom checking. My portfolio provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare.
+This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, symptom checking and many more. My portfolio provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare. these algorithms help us to implement new functionalities and also improve the already present functionality.
 
 ## 3. Objectives
 
@@ -43,35 +41,35 @@ The design of this portfolio involves selecting specific functionalities within 
 
 ### 1. Doctor Search by Specialty
 
-For searching doctors based on their specialty in a large dataset, a linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
+This functionality is for searching doctors based on their specialty in a large dataset. It allows patients to find medical professionals with specific  health conditions. A linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
 
 ![Doctor Search by Specialty](images/patient_by_specialiity.png)
-*This image represents the Doctor search by specialty in practo app[13].*
+*This image represents the Doctor search by specialty in the Practo app[13].*
 
 ### 2. Appointment Scheduling
 
-Efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
+This functionality is to efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
 
 ![Appointment Scheduling](images/appointment_scheduling.png)
 
 *This image represents the Appointment Scheduling[8]*
 ### 3. Patient Record Management
 
-For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+This use case is used for managing and retrieving patient records efficiently. This ensures that healthcare providers have access to accurate and up-to-date patient data, which is essential for delivering quality care. Linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ![patient record management](images/patient%20record%20management.jpg)
 *This image represents the Patient Record Management[13]*
 
 ### 4. Prescription Management
 
-For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
+This functionality ensures that healthcare providers can access accurate prescription information quickly, improving patient care . Searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
 ![Prescription Management](images/prescription%20management%202.jpg)
 *This image represents the Prescription Management[15]*
 
 ### 5. Emergency Response System
 
-For providing quick access to emergency services based on location, simple routing methods are inefficient. The best approach would be using Dijkstra's Algorithm, which finds the shortest path in weighted graphs. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
+This functionality is for providing quick access to emergency services based on location. The best approach would be using Dijkstra's Algorithm, which finds the shortest path in weighted graphs. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
 
 ### 6. Medicine Availability
 
@@ -93,11 +91,11 @@ This use case  is to track changes in symptoms over time. A person experiencing 
 *This image represents the Symptom Tracking Over Time[9]*
 ### 9. Insurance Claim Processing
 
-Efficiently process insurance claims while minimizing processing time and maximizing accuracy. Traditional methods may struggle with the complexity and volume of claim data. The best approach would be using a Graph-based approach, such as Dijkstra's Algorithm, to optimize the routing and processing of claims through the insurance network. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
+This functionality is to efficiently process insurance claims while minimizing processing time and maximizing accuracy. Traditional methods may struggle with the complexity and volume of claim data. The best approach would be using a Graph-based approach, such as Dijkstra's Algorithm, to optimize the routing and processing of claims through the insurance network. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
 
 ### 10. Healthcare Resource Allocation
 
-Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. Simple heuristics may lead to suboptimal resource utilization. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[5].
+Optimize the allocation of healthcare resources such as staff and equipment to meet patient demand efficiently. The best approach would be using a Max-Flow Min-Cut Algorithm, such as the Ford-Fulkerson method, to maximize resource allocation while minimizing costs and bottlenecks. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for the [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[5].
 
 ### 11. Electronic Health Record (EHR) Retrieval
 
@@ -120,7 +118,7 @@ Recommend personalized treatment plans for patients based on medical history and
 
 ### 14. Healthcare Facility Routing Optimization
 
-This usecase is to optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c) in facility routing.
+This use case is to optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c) in facility routing.
 
 ### 15. Patient Discharge Planning
 
@@ -134,8 +132,6 @@ Optimize the supply chain management of healthcare products and equipment to ens
 *This image represents the Healthcare Supply Chain Optimization[12]*
 
 ## 5. Challenges
-
-Implementing these algorithms in a healthcare app comes with several challenges:
 
 - **Efficiency**: Ensuring the algorithms run efficiently given the potentially large dataset of patient records and symptoms. With the ever-increasing amount of healthcare data, it is crucial to maintain performance without compromising on speed and accuracy.
 - **Scalability**: Designing solutions that can scale with the growing number of users and data. As the user base and data volume grow, the algorithms must be able to handle increased load without degradation in performance.
