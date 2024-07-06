@@ -46,7 +46,7 @@ The design of this portfolio involves selecting specific functionalities within 
 For searching doctors based on their specialty in a large dataset, a linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
 
 ![Doctor Search by Specialty](images/patient_by_specialiity.png)
-* This image represents the Doctor search by specialty in practo app[13].*
+*This image represents the Doctor search by specialty in practo app[13].*
 
 ### 2. Appointment Scheduling
 
