@@ -21,13 +21,11 @@
 
 In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients.
 
-This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining comprehensive health records. By using algorithmic problem-solving techniques, we can further enhance the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
+This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining health records. By using algorithmic problem-solving techniques, we can further improve  the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
 
 ## 2. Why Portfolio
 
-This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, and symptom checking.
-
-In addition to showcasing technical proficiency, this portfolio aims to bridge the gap between theoretical knowledge and practical application. It provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare.
+This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, and symptom checking. My portfolio provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare.
 
 ## 3. Objectives
 
@@ -48,6 +46,7 @@ The design of this portfolio involves selecting specific functionalities within 
 For searching doctors based on their specialty in a large dataset, a linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
 
 ![Doctor Search by Specialty](images/patient_by_specialiity.png)
+*This image represents the Doctor search by specialty in practo app[13].*
 
 ### 2. Appointment Scheduling
 
@@ -55,15 +54,20 @@ Efficiently manage appointment scheduling to optimize healthcare provider availa
 
 ![Appointment Scheduling](images/appointment_scheduling.png)
 
+*This image represents the Appointment Scheduling[8]*
 ### 3. Patient Record Management
 
 For managing and retrieving patient records efficiently, a linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+
+![patient record management](images/patient%20record%20management.jpg)
+*This image represents the Patient Record Management[13]*
 
 ### 4. Prescription Management
 
 For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
-![Prescription Management](images/prescription%20management.png)
+![Prescription Management](images/prescription%20management%202.jpg)
+*This image represents the Prescription Management[15]*
 
 ### 5. Emergency Response System
 
@@ -72,11 +76,15 @@ For providing quick access to emergency services based on location, simple routi
 ### 6. Medicine Availability
 
 For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+![Prescription Management](images/prescription%20management.png)
+*This image represents the Medicine Availability[14]*
 
 ### 7. Patient Queue Management
 
 For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
 
+![Patient Queue management](images/queue%20management.png)
+*This image represents the Patient Queue Management[16]*
 ### 8. Symptom Tracking Over Time
 
 This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp)[4].
@@ -170,3 +178,6 @@ To further enhance this portfolio, the following tasks are planned:
 
 [14] [medplus.com](https://www.medplusmart.com/)
 
+[15] [https://www.altexsoft.com/blog/pharmacy-management-system/](https://www.altexsoft.com/blog/pharmacy-management-system/)
+
+[16] [https://www.unotech.io/clinic-queue-management-system-qms](https://www.unotech.io/clinic-queue-management-system-qms)
