@@ -63,7 +63,7 @@ For managing and retrieving patient records efficiently, a linear search would b
 
 For managing and retrieving prescriptions quickly, searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
-![Prescription Management](images/prescription%20management%202.png)
+![Prescription Management](images/prescription%20management%202.jpg)
 
 ### 5. Emergency Response System
 
