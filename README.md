@@ -19,7 +19,7 @@
 
 ## 1. Introduction
 
-In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. Practo offers a range of services, including the ability to search for doctors and book appointments online, order medicines, consult with doctors online through video calls or chat, store and manage medical records, and read health-related articles and tips[17]. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients.This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining health records. By using algorithmic problem-solving techniques, we can further improve  the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
+In today's world, healthcare apps play a crucial role in managing health records, booking appointments, and providing online consultations. This portfolio showcases various algorithmic solutions implemented in C and C++ to enhance functionalities within a healthcare app. I got the idea of healthcare apps from Practo. Practo offers a range of services, including the ability to search for doctors and book appointments online, order medicines, consult with doctors online through video calls or chat, store and manage medical records, and read health-related articles and tips[17]. I have  done research about Practo and found out the functionalities that Practo is implementing. My idea is to make a health app that provides the functionalities of Practo and add some additional features that will improve the app and make the app efficient. This app will be useful for both doctors and patients. This app not only facilitates easier access to healthcare services but also contributes to better health outcomes by providing timely medical advice, tracking health metrics, and maintaining health records. By using algorithmic problem-solving techniques, we can further improve  the efficiency, accuracy, and scalability of these apps, ensuring they meet the evolving needs of users.
 
 ## 2. Why Portfolio
 
@@ -31,13 +31,14 @@ The main objectives of this portfolio are:
 
 - **Demonstrate Algorithmic Techniques**: Showcase the use of algorithmic problem-solving techniques in healthcare applications.
 - **Provide Efficient Solutions**: Develop efficient solutions for common healthcare app functionalities to improve user experience.
+- **Analyse Complexities**:Analyse the time and space complexities to find the best algorithm.
 - **Illustrate Practical Applications**: Highlight the application of data structures and algorithms in real-world scenarios.
 - **Enhance Healthcare Management**: Contribute to better healthcare management through optimized app functionalities.
 - **Promote Scalability and Accuracy**: Ensure the solutions are scalable to handle large datasets and maintain high accuracy.
 
 ## 4. Design
 
-The design of this portfolio involves selecting specific functionalities within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C and C++ code examples. I have written some codes and some of them I have gathered from various internet resources. The following functionalities and algorithms are covered:
+The design of this portfolio involves selecting specific use cases within a healthcare app and applying relevant algorithms to optimize their performance. Each functionality is paired with an appropriate algorithm and is demonstrated with C and C++ code examples. I have written some codes and some of them I have gathered from various internet resources. The following functionalities and algorithms are covered:
 
 ### 1. Doctor Search by Specialty
 
