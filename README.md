@@ -122,21 +122,21 @@ This use case is to optimize the routing of healthcare professionals within hosp
 
 ### 15. Patient Discharge Planning
 
-Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Basic discharge planning methods like check list may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
+Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Check list is a option but may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
 
 ### 16. Healthcare Supply Chain Optimization
 
 Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. Time Complexity is O(V * E^2) and space complexity is O(V). Here is my code for [Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)[7].
 
 ![Healthcare Supply Chain Optimization](images/Healthcare%20Supply%20Chain%20Optimization.png)
-*This image represents the Healthcare Supply Chain Optimization[12]*
+*This image represents the working of Healthcare Supply Chain Optimization[12]*
 
 ## 5. Challenges
 
 - **Efficiency**: Ensuring the algorithms run efficiently given the potentially large dataset of patient records and symptoms. With the ever-increasing amount of healthcare data, it is crucial to maintain performance without compromising on speed and accuracy.
 - **Scalability**: Designing solutions that can scale with the growing number of users and data. As the user base and data volume grow, the algorithms must be able to handle increased load without degradation in performance.
 - **Accuracy**: Maintaining high accuracy in functionalities such as symptom checking and prescription management. Accurate diagnosis and treatment recommendations are vital for patient safety and care quality.
-- **Integration**: Seamlessly integrating these algorithms into the existing app infrastructure. This includes ensuring compatibility with various platforms, maintaining data security, and providing a smooth user experience.
+- **Integration**: Integrating these algorithms into the existing app infrastructure. This includes ensuring compatibility with various platforms, maintaining data security, and providing a smooth user experience.
 
 
 ## 6. To-Do
@@ -146,8 +146,7 @@ To further enhance this portfolio, the following tasks are planned:
 - **Implement Additional Functionalities**: Develop more functionalities using advanced algorithms to cover a wider range of healthcare needs.
 - **Optimize Existing Algorithms**: Continuously improve the performance of the implemented algorithms for faster and more efficient operations.
 - **Extend Use Cases**: Expand the use cases to include more aspects of healthcare management, such as telemedicine, remote monitoring, and patient engagement.
-- **Analyze Complexity**: Provide a comprehensive analysis of the time and space complexity for each algorithm to better understand their performance characteristics.
-- **Develop User Interface**: Create a user-friendly interface to demonstrate these functionalities in a live healthcare app prototype, making it easier for users to interact with the app and benefit from its features.
+- **Develop User Interface**: To create a user-friendly interface to demonstrate these functionalities in a live healthcare app prototype, making it easier for users to interact with the app and benefit from its features.
 
 
 ## 7. References
