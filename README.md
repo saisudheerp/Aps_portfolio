@@ -115,19 +115,19 @@ Manage and optimize the inventory of medical supplies and medications in hospita
 
 ### 13. Personalized Treatment Recommendation
 
-Recommend personalized treatment plans for patients based on medical history and current conditions. Traditional methods may provide generic recommendations. The best approach would be using a Decision Support System, such as the A* Search Algorithm, which evaluates treatment options based on patient-specific factors like medical history, allergies, and genetic predispositions. **Time Complexity** is O(E*logn) and **space complexity** is O(n). Here is my code for **[A* Search Algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/Astar.cpp)**[7].
+Recommend personalized treatment plans for patients based on medical history and current conditions. Traditional methods may provide generic recommendations. The best approach would be using a Decision Support System, such as the A* Search Algorithm, which evaluates treatment options based on patient-specific factors like medical history, allergies, and genetic predispositions. **Time Complexity** is O(E*logn) and **Space Complexity** is O(n). Here is my code for **[A* Search Algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/Astar.cpp)**[7].
 
 ### 14. Healthcare Facility Routing Optimization
 
-This use case is to optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. **Time Complexity** is O(n^2) and **space complexity** is O(n). Here is my code for **[Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c)** in facility routing.
+This use case is to optimize the routing of healthcare professionals within hospital facilities to minimize travel time and maximize patient care. The best approach would be using a Shortest Path algorithm like Dijkstra's Algorithm, which computes the most efficient routes based on dynamic factors such as patient locations and emergency situations. **Time Complexity** is O(n^2) and **Space Complexity** is O(n). Here is my code for **[Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c)** in facility routing.
 
 ### 15. Patient Discharge Planning
 
-Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Check list is an option but may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. **Time Complexity** and **Space complexity** are O(n). Here is my code for **[BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c)** in discharge planning.
+Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Check list is an option but may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. **Time Complexity** and **Space Complexity** are O(n). Here is my code for **[BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c)** in discharge planning.
 
 ### 16. Healthcare Supply Chain Optimization
 
-Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. **Time Complexity** is O(V * E^2) and **space complexity** is O(V). Here is my code for **[Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)**[7].
+Optimize the supply chain management of healthcare products and equipment to ensure timely availability and reduce costs. Traditional supply chain methods may lack visibility and responsiveness. The best approach would be using a Network Flow algorithm like the Ford-Fulkerson method, which maximizes the flow of supplies through the healthcare supply chain network while considering capacity constraints and demand fluctuations. **Time Complexity** is O(V * E^2) and **Space Complexity** is O(V). Here is my code for **[Ford-Fulkerson algorithm implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/ford_fulkerson.cpp)**[7].
 
 ![Healthcare Supply Chain Optimization](images/Healthcare%20Supply%20Chain%20Optimization.png)
 *This image represents the working of Healthcare Supply Chain Optimization[12]*
@@ -146,7 +146,7 @@ To further enhance this portfolio, the following tasks are planned:
 
 - **Implement Additional Functionalities**: Develop more functionalities using advanced algorithms to cover a wider range of healthcare needs.
 - **Optimize Existing Algorithms**: Continuously improve the performance of the implemented algorithms for faster and more efficient operations.
-- **Extend Use Cases**: Expand the use cases to include more aspects of healthcare management, such as telemedicine, remote monitoring, and patient engagement.
+- **Extend Use Cases**: Expand the use cases to include more aspects of healthcare management.
 - **Develop User Interface**: To create a user-friendly interface to demonstrate these functionalities in a live healthcare app prototype, making it easier for users to interact with the app and benefit from its features.
 
 
