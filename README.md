@@ -23,7 +23,7 @@ In today's world, healthcare apps play a crucial role in managing health records
 
 ## 2. Why Portfolio
 
-This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, symptom checking and many more. My portfolio provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare. these algorithms help us to implement new functionalities and also improve the already present functionality.
+This portfolio serves as a demonstration of applying advanced algorithmic techniques to solve real-world problems in healthcare management. It highlights the practical implementation of algorithms to optimize various functionalities such as doctor search, appointment booking, symptom checking and many more. My portfolio provides a comprehensive guide for developing efficient, reliable, and scalable healthcare solutions using algorithmic approaches. By presenting detailed code implementations and explaining the underlying concepts, this portfolio can serve as a valuable resource for students, developers, and healthcare professionals interested in the intersection of technology and healthcare. these algorithms help us to implement new functionalities and also improve the present functionalities.
 
 ## 3. Objectives
 
