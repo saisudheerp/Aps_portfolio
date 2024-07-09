@@ -1,4 +1,4 @@
-# Health-Care Management App Portfolio
+# Health-Care Management Portfolio
 
 <dl>
 <dt>Course Name</dt>
