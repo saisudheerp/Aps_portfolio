@@ -59,11 +59,11 @@ This functionality is to efficiently manage appointment scheduling to optimize h
 This use case is used for managing and retrieving patient records efficiently. This ensures that healthcare providers have access to accurate and up-to-date patient data, which is essential for delivering quality care. Linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
 
 ![patient record management](images/patient%20record%20management.jpg)
-*This image represents the Patient Record Management[13]*
+*This image represents the Patient Record [13]*
 
 ### 4. Prescription Management
 
-This functionality ensures that healthcare providers can access accurate prescription information quickly, improving patient care . Searching through a list is too slow. The best approach would be using Hash Tables, which offer average O(1) time complexity for lookups. Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
+This functionality ensures that healthcare providers can access accurate prescription information quickly, improving patient care. Searching through a list is too slow. The best approach would be using Hash Tables, which offer an average O(1) time complexity for lookups. Space complexity is O(n). Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
 
 ![Prescription Management](images/prescription%20management%202.jpg)
 *This image represents the Prescription Management[15]*
@@ -89,7 +89,7 @@ For managing patient queues in clinics, a first-come-first-served approach may b
 This use case  is to track changes in symptoms over time. A person experiencing normal leg pain might initially ignore it, but if the pain continues for several days, it could be a sign of a more serious condition like bone cancer. Therefore, it is crucial to monitor the symptoms continuously at regular intervals. The best approach would be using the Sliding Window Algorithm to analyze data within specific intervals. Time Complexity is O(n) and space complexity is O(1). Here is my code for the [Sliding Window Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/sliding_window.cpp)[4].
 
 ![Symptom Tracking Over Time](images/synptom%20tracking.png)
-*This image represents the Symptom Tracking Over Time[9]*
+*This image represents the Symptom Tracking Over Time  above one is a manual process but we can automate it  [9]*
 ### 9. Insurance Claim Processing
 
 This functionality is to efficiently process insurance claims while minimizing processing time and maximizing accuracy. Traditional methods may struggle with the complexity and volume of claim data. The best approach would be using a Graph-based approach, such as Dijkstra's Algorithm, to optimize the routing and processing of claims through the insurance network. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
@@ -104,7 +104,7 @@ Efficiently retrieve patient Electronic Health Records (EHR) from a large databa
 
 ![Electronic Health Record (EHR) Retrieval](images/Electronic_medical_record.jpg)
 
-*This image represents the Electronic Health Record (EHR) Retrieval[10]*
+*This image represents the Electronic Health Record[10]*
 
 ### 12. Medical Inventory Management
 
@@ -123,7 +123,7 @@ This use case is to optimize the routing of healthcare professionals within hosp
 
 ### 15. Patient Discharge Planning
 
-Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Check list is a option but may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
+Optimize the discharge planning process for patients to ensure timely and smooth transitions from hospital care to home or rehabilitation facilities. Check list is an option but may lead to delays and inefficiencies. The best approach would be using a Graph Traversal algorithm like Breadth-First Search (BFS), which identifies the shortest path and optimal sequence of discharge tasks based on patient needs and facility resources. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c) in discharge planning.
 
 ### 16. Healthcare Supply Chain Optimization
 
