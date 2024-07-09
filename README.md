@@ -49,38 +49,38 @@ This functionality is for searching doctors based on their specialty in a large 
 
 ### 2. Appointment Scheduling
 
-This functionality is to efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. Time Complexity is O(n*logn) and space complexity is O(n). Here is my code for [Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)[2].
+This functionality is to efficiently manage appointment scheduling to optimize healthcare provider availability and patient convenience. Traditional methods may lead to inefficient scheduling and patient wait times. The best approach would be using the Min-Heap data structure, which allows for efficient retrieval and insertion of appointments based on priority, such as urgency or patient condition severity. **Time Complexity** is O(n*logn) and **space complexity** is O(n). Here is my code for **[Min-Heap implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/min_heap.cpp)**[2].
 
 ![Appointment Scheduling](images/appointment_scheduling.png)
 
 *This image represents the Available Appointments [8]*
 ### 3. Patient Record Management
 
-This use case is used for managing and retrieving patient records efficiently. This ensures that healthcare providers have access to accurate and up-to-date patient data, which is essential for delivering quality care. Linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+This use case is used for managing and retrieving patient records efficiently. This ensures that healthcare providers have access to accurate and up-to-date patient data, which is essential for delivering quality care. Linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. **Time Complexity** and **Space complexity** are O(n). Here is my code for **[BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c)**.
 
 ![patient record management](images/patient%20record%20management.jpg)
 *This image represents the Patient Record [13]*
 
 ### 4. Prescription Management
 
-This functionality ensures that healthcare providers can access accurate prescription information quickly, improving patient care. Searching through a list is too slow. The best approach would be using Hash Tables, which offer an average O(1) time complexity for lookups. Space complexity is O(n). Here is my code for [Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)[3].
+This functionality ensures that healthcare providers can access accurate prescription information quickly, improving patient care. Searching through a list is too slow. The best approach would be using Hash Tables, which offer an average O(1) **time complexity** for lookups. **Space complexity is O(n)**. Here is my code for **[Hash Table implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/hashing.cpp)**[3].
 
 ![Prescription Management](images/prescription%20management%202.jpg)
 *This image represents the Prescription Management[15]*
 
 ### 5. Emergency Response System
 
-This functionality is for providing quick access to emergency services based on location. The best approach would be using Dijkstra's Algorithm, which finds the shortest path in weighted graphs. Time Complexity is O(n^2) and space complexity is O(n). Here is my code for [Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c).
+This functionality is for providing quick access to emergency services based on location. The best approach would be using Dijkstra's Algorithm, which finds the shortest path in weighted graphs. **Time Complexity** is O(n^2) and **space complexity** is O(n). Here is my code for **[Dijkstra's Algorithm](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/dijkstras.c)**.
 
 ### 6. Medicine Availability
 
-For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. Time Complexity and Space complexity are O(n). Here is my code for [BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
+For checking the availability of medicines in various pharmacies, a linear search is impractical. The best approach would be using Breadth-First Search (BFS) to explore all nearby pharmacies systematically. **Time Complexity** and **Space complexity** are O(n). Here is my code for **[BFS](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c)**.
 ![Prescription Management](images/prescription%20management.png)
 *This image represents the Medicine Availability From Medplus[14]*
 
 ### 7. Patient Queue Management
 
-For managing patient queues in clinics, a first-come-first-served approach may be inefficient because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. Time Complexity is O(n) and Space complexity is O(1). Here is my code for [Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c).
+A first-come-first-served approach may be inefficient for managing patient queues in clinics because some patients should be treated based on emergencies. The best approach would be using a Priority Queue to handle patients based on urgency. **Time Complexity** is O(n) and **Space complexity** is O(1). Here is my code for **[Priority Queue](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/priority_q.c)**.
 
 ![Patient Queue management](images/queue%20management.png)
 *This image represents the Patient Queue Management[16]*
