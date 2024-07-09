@@ -42,7 +42,7 @@ The design of this portfolio involves selecting specific use cases within a heal
 
 ### 1. Doctor Search by Specialty
 
-This functionality is for searching doctors based on their specialty in a large dataset. It allows patients to find medical professionals with specific  health conditions. A linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. Time Complexity and Space complexity are O(number of words * maxLengthOfWord). Here is my code for the [Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)[1].
+This functionality is for searching doctors based on their specialty in a large dataset. It allows patients to find medical professionals with specific  health conditions. A linear search is inefficient as it takes more time to search. The best approach would be using a Trie data structure, which allows for efficient prefix-based searching. **Time Complexity** and **Space complexity** are O(number of words * maxLengthOfWord). Here is my code for the **[Trie data structure](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/trie.cpp)**[1].
 
 ![Doctor Search by Specialty](images/patient_by_specialiity.png)
 *This image represents the Doctor search by specialty in the Practo app[13].*
