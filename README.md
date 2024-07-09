@@ -53,7 +53,7 @@ This functionality is to efficiently manage appointment scheduling to optimize h
 
 ![Appointment Scheduling](images/appointment_scheduling.png)
 
-*This image represents the Appointment Scheduling[8]*
+*This image represents the Available Appointments [8]*
 ### 3. Patient Record Management
 
 This use case is used for managing and retrieving patient records efficiently. This ensures that healthcare providers have access to accurate and up-to-date patient data, which is essential for delivering quality care. Linear search would be too slow. The best approach would be using a Binary Search Tree (BST) for efficient insertion, deletion, and search operations. Time Complexity and Space complexity are O(n). Here is my code for [BST implementation](https://github.com/saisudheerp/Aps_portfolio/blob/main/Codes/bst.c).
